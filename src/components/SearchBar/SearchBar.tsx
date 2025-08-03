@@ -33,7 +33,7 @@ const SearchBar = ({ onSubmit }: SearchBarProps) => {
           Powered by TMDB
         </a>
 
-        {/* ✨ Form Actions API через action */}
+        
         <form className={styles.form} action={handleSubmit}>
           <input
             className={styles.input}
